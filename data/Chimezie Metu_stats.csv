@@ -1,0 +1,6 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+414,Chimezie Metu,25,66,0,689,129,219,0.589,9,38,0.237,120,181,0.663,0.610,54,73,0.740,47,151,198,40,22,21,32,81,321,SAC,2023
+1100,Chimezie Metu,24,60,20,1279,203,449,0.452,57,186,0.306,146,263,0.555,0.516,71,91,0.780,34,301,335,60,51,32,61,93,534,SAC,2022
+1759,Chimezie Metu,23,36,6,488,91,179,0.508,13,37,0.351,78,142,0.549,0.545,31,43,0.721,31,81,112,28,14,18,29,59,226,SAC,2021
+2138,Chimezie Metu,22,18,0,105,24,42,0.571,0,2,0.000,24,40,0.600,0.571,10,13,0.769,12,21,33,10,3,6,10,7,58,SAS,2020
+2753,Chimezie Metu,21,29,0,145,19,58,0.328,0,2,0.000,19,56,0.339,0.328,13,17,0.765,9,27,36,13,6,2,15,14,51,SAS,2019

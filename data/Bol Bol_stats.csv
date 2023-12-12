@@ -1,0 +1,5 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+576,Bol Bol,23,70,33,1505,261,478,0.546,30,113,0.265,231,365,0.633,0.577,82,108,0.759,69,336,405,69,30,85,112,92,634,ORL,2023
+863,Bol Bol,22,14,0,81,15,27,0.556,1,4,0.250,14,23,0.609,0.574,2,5,0.400,4,16,20,5,1,2,4,4,33,DEN,2022
+1562,Bol Bol,21,32,2,160,25,58,0.431,9,24,0.375,16,34,0.471,0.509,10,15,0.667,0,24,24,7,3,10,13,14,69,DEN,2021
+2156,Bol Bol,20,7,0,87,14,28,0.500,4,9,0.444,10,19,0.526,0.571,8,10,0.800,5,14,19,6,2,6,10,11,40,DEN,2020

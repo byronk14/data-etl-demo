@@ -1,0 +1,4 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+273,Udoka Azubuike,23,36,4,359,59,72,0.819,0,0,,59,72,0.819,0.819,7,20,0.350,31,88,119,11,6,15,18,34,125,UTA,2023
+926,Udoka Azubuike,22,17,6,195,37,49,0.755,0,0,,37,49,0.755,0.755,6,11,0.545,18,53,71,0,1,11,12,25,80,UTA,2022
+1619,Udoka Azubuike,21,15,0,57,4,9,0.444,0,0,,4,9,0.444,0.444,8,10,0.800,4,9,13,0,1,4,3,9,16,UTA,2021

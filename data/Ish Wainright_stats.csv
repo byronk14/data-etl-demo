@@ -1,0 +1,3 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+434,Ish Wainright,28,60,2,915,84,227,0.370,57,173,0.329,27,54,0.500,0.496,26,31,0.839,45,94,139,53,38,22,22,117,251,PHO,2023
+1134,Ish Wainright,27,45,0,359,41,104,0.394,19,59,0.322,22,45,0.489,0.486,7,12,0.583,27,27,54,15,20,6,13,49,108,PHO,2022

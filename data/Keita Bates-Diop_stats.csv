@@ -1,0 +1,7 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+183,Keita Bates-Diop,27,67,42,1452,236,465,0.508,56,142,0.394,180,323,0.557,0.568,119,150,0.793,65,183,248,103,46,20,56,63,647,SAS,2023
+831,Keita Bates-Diop,26,59,14,956,136,263,0.517,17,55,0.309,119,208,0.572,0.549,46,61,0.754,62,169,231,41,27,14,45,61,335,SAS,2022
+1539,Keita Bates-Diop,25,30,0,245,30,67,0.448,5,17,0.294,25,50,0.500,0.485,14,21,0.667,9,40,49,12,11,5,7,11,79,SAS,2021
+2155,Keita Bates-Diop,24,7,0,98,13,28,0.464,3,9,0.333,10,19,0.526,0.518,8,10,0.800,4,13,17,0,2,4,3,7,37,DEN,2020
+2172,Keita Bates-Diop,24,37,0,646,87,206,0.422,31,94,0.330,56,112,0.500,0.498,46,65,0.708,21,89,110,30,17,20,14,36,251,MIN,2020
+2787,Keita Bates-Diop,23,30,3,503,60,142,0.423,13,52,0.250,47,90,0.522,0.468,18,28,0.643,16,67,83,17,18,14,14,29,151,MIN,2019

@@ -1,0 +1,5 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+37,Saben Lee,23,2,0,10,3,4,0.750,0,1,0.000,3,3,1.000,0.750,0,0,,0,0,0,2,1,0,3,1,6,PHI,2023
+441,Saben Lee,23,23,1,363,46,117,0.393,11,29,0.379,35,88,0.398,0.440,42,57,0.737,13,32,45,65,18,1,21,31,145,PHO,2023
+1080,Saben Lee,22,37,0,604,69,177,0.390,14,60,0.233,55,117,0.470,0.429,56,71,0.789,18,69,87,107,36,12,36,44,208,DET,2022
+1735,Saben Lee,21,48,7,781,99,210,0.471,8,23,0.348,91,187,0.487,0.490,61,89,0.685,20,77,97,174,32,13,55,76,267,DET,2021

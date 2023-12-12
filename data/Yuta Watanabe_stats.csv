@@ -1,0 +1,6 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+83,Yuta Watanabe,28,58,1,928,114,232,0.491,60,135,0.444,54,97,0.557,0.621,34,47,0.723,30,111,141,48,25,17,22,80,322,BRK,2023
+739,Yuta Watanabe,27,38,4,445,56,138,0.406,27,79,0.342,29,59,0.492,0.504,24,40,0.600,18,74,92,21,11,16,19,38,163,TOR,2022
+1455,Yuta Watanabe,26,50,4,723,79,180,0.439,36,90,0.400,43,90,0.478,0.539,24,29,0.828,36,123,159,40,26,19,19,57,218,TOR,2021
+2084,Yuta Watanabe,25,18,0,105,15,34,0.441,3,8,0.375,12,26,0.462,0.485,3,8,0.375,7,13,20,5,5,1,2,9,36,MEM,2020
+2695,Yuta Watanabe,24,15,0,174,15,51,0.294,2,16,0.125,13,35,0.371,0.314,7,10,0.700,4,27,31,8,4,1,6,11,39,MEM,2019
