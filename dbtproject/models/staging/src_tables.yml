@@ -1,0 +1,18 @@
+---
+version: 2
+sources:
+  - name: main
+    description: Data from raw tables - ingested from raw intake process.
+    tables:
+      - name: team_players_stats
+        database: mydb
+        config:
+          tags: [raw_data_layer]
+        columns:
+          - name: id
+            tests: [not_null]
+        # tests:
+        #   - elementary.schema_changes:
+        #       tags: [elementary]
+        #       config:
+        #         severity: error

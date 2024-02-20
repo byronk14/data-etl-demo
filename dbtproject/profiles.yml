@@ -1,0 +1,17 @@
+config:
+  send_anonymous_usage_stats: False
+
+nbadata-profile:
+  target: dev
+  outputs:
+   dev:
+     type: duckdb
+     path: "{{ env_var('DBT_ENV_SECRET_PATH') }}"
+     extensions:
+      - httpfs
+      - parquet
+      - excel
+     settings:
+      schema: main
+        
+  
