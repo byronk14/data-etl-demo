@@ -1,0 +1,5 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+290,Nassir Little,22,54,4,976,134,303,0.442,58,158,0.367,76,145,0.524,0.538,33,46,0.717,27,114,141,50,20,20,36,66,359,POR,2023
+943,Nassir Little,21,42,23,1088,145,315,0.460,51,154,0.331,94,161,0.584,0.541,69,94,0.734,58,178,236,54,25,36,40,82,410,POR,2022
+1632,Nassir Little,20,48,2,640,78,167,0.467,28,80,0.350,50,87,0.575,0.551,36,45,0.800,32,96,128,23,5,13,18,51,220,POR,2021
+2235,Nassir Little,19,48,5,573,65,151,0.430,14,59,0.237,51,92,0.554,0.477,28,44,0.636,31,77,108,22,13,14,15,72,172,POR,2020

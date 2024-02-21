@@ -1,0 +1,4 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+601,Théo Maledon,21,44,7,854,102,254,0.402,28,95,0.295,74,159,0.465,0.457,63,74,0.851,14,109,123,152,37,12,59,61,295,CHO,2023
+896,Théo Maledon,20,51,7,908,119,317,0.375,44,150,0.293,75,167,0.449,0.445,79,100,0.790,20,111,131,111,31,11,65,67,361,OKC,2022
+1581,Théo Maledon,19,65,49,1778,226,614,0.368,105,313,0.335,121,301,0.402,0.454,101,135,0.748,25,186,211,227,56,11,141,126,658,OKC,2021

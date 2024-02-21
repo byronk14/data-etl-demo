@@ -1,0 +1,6 @@
+id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
+309,Grayson Allen,27,72,70,1972,245,557,0.440,146,366,0.399,99,191,0.518,0.571,114,126,0.905,61,176,237,163,62,14,72,117,750,MIL,2023
+967,Grayson Allen,26,66,61,1805,255,569,0.448,159,389,0.409,96,180,0.533,0.588,64,74,0.865,32,190,222,100,46,18,43,96,733,MIL,2022
+1473,Grayson Allen,25,50,38,1259,173,414,0.418,107,274,0.391,66,140,0.471,0.547,79,91,0.868,19,141,160,108,46,8,48,71,532,MEM,2021
+2077,Grayson Allen,24,38,0,718,117,251,0.466,57,141,0.404,60,110,0.545,0.580,39,45,0.867,8,77,85,52,10,2,33,53,330,MEM,2020
+2826,Grayson Allen,23,38,2,416,67,178,0.376,32,99,0.323,35,79,0.443,0.466,45,60,0.750,3,20,23,25,6,6,33,47,211,UTA,2019

@@ -5,8 +5,7 @@ with source as (
 
 players as (
     select
-        id,
-        player_name as player_name,
+        distinct player_name as player_name,
         team as player_team
     from source
 )

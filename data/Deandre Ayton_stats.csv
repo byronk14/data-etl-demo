@@ -1,6 +1,0 @@
-id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
-426,Deandre Ayton,24,67,67,2035,522,887,0.589,7,24,0.292,515,863,0.597,0.592,152,200,0.760,172,495,667,115,37,53,120,190,1203,PHO,2023
-1126,Deandre Ayton,23,58,58,1713,442,697,0.634,7,19,0.368,435,678,0.642,0.639,106,142,0.746,149,444,593,84,40,40,91,142,997,PHO,2022
-1775,Deandre Ayton,22,69,69,2115,430,687,0.626,4,20,0.200,426,667,0.639,0.629,133,173,0.769,228,499,727,99,41,81,103,196,997,PHO,2021
-2367,Deandre Ayton,21,38,32,1236,310,568,0.546,3,13,0.231,307,555,0.553,0.548,67,89,0.753,147,289,436,72,26,58,80,117,690,PHO,2020
-2982,Deandre Ayton,20,71,70,2183,509,870,0.585,0,4,0.000,509,866,0.588,0.585,141,189,0.746,223,506,729,125,61,67,126,209,1159,PHO,2019

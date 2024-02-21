@@ -11,8 +11,8 @@ sources:
         columns:
           - name: id
             tests: [not_null]
-        # tests:
-        #   - elementary.schema_changes:
-        #       tags: [elementary]
-        #       config:
-        #         severity: error
+        tests:
+          - elementary.schema_changes:
+              tags: [elementary]
+              config:
+                severity: warn

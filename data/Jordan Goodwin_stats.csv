@@ -1,3 +1,0 @@
-id,player_name,age,games,games_started,minutes_played,field_goals,field_attempts,field_percent,three_fg,three_attempts,three_percent,two_fg,two_attempts,two_percent,effect_fg_percent,ft,fta,ft_percent,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,team,season
-556,Jordan Goodwin,24,62,7,1106,158,353,0.448,38,118,0.322,120,235,0.511,0.501,53,69,0.768,57,148,205,168,58,26,57,95,407,WAS,2023
-1282,Jordan Goodwin,23,2,0,6,0,3,0.000,0,1,0.000,0,2,0.000,0.000,0,0,,0,1,1,0,0,0,0,1,0,WAS,2022
