@@ -11,6 +11,9 @@ sources:
         columns:
           - name: id
             tests: [not_null]
+
+          - name: player_name
+            tests: [not_null]
         tests:
           - elementary.schema_changes:
               tags: [elementary]

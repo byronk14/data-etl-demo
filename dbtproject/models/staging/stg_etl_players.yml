@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_etl_players
+    description: "NBA Players table"
+    columns:
+      - name: player_name
+        description: "player name"
+      
+      - name: player_team
+        description: "player team"
+
+      
