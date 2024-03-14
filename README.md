@@ -10,3 +10,15 @@ First the raw data is retrieved from the API [nba-stats-db.herokuapp.com] via a 
 2. Duckdb 
 3. dbt 
 4. git
+
+
+
+Clone the git repository and use the main branch.
+```
+git clone https://github.com/byronk14/data-etl-demo.git
+
+cd data-etl-demo
+
+# Set path to duckdb .db file. Replace <file path>.
+export DBT_ENV_SECRET_PATH=<file path>
+```
