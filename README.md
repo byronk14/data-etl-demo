@@ -24,7 +24,14 @@ export DBT_ENV_SECRET_PATH=<file path>
 ```
 
 ## Duckdb
+Duckdb is a convenient and extensible database system that can be integrated into ETL pipelines. It provides fast data analytics capabilities, efficient storage, and an user-friendly SQL interface without having to deploy and manage a separate database server.
 
+To install duckdb
+```
+brew install duckdb
+```
+
+You can launch DuckDB by either executing `duckdb` as a CLI command or connect to a local instance using your favorite database UI tool.
 
 ## Extracting Raw Data
 
@@ -35,3 +42,14 @@ python3 data_ingestion.py <file path to /data/players> <file path to duckdb .db 
 ```
 
 ## Running dbt 
+
+From your project terminal run the following commands.
+
+```
+dbt deps
+dbt snapshot
+dbt run --select sde_dbt_tutorial
+dbt test
+dbt docs generate
+dbt docs serve
+```
