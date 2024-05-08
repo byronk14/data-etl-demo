@@ -9,18 +9,37 @@ First the raw data is retrieved from the API [nba-stats-db.herokuapp.com](nba-st
 **1.** Python \
 **2.** Duckdb \
 **3.** dbt \
-**4.** Git
+**4.** Git \
+**5.** dagster
 
 
 
 Clone the git repository and use the main branch.
 ```bash
+# Clone the code repository
 git clone https://github.com/byronk14/data-etl-demo.git
 
+# Go into the code directory
 cd data-etl-demo
+
+# Create a virtual environment and activate it using the commands below
+python3 -m venv dataetlenv
+source dataetlenv/bin/activate
+pip install -r requirements.txt
 
 # Set path to duckdb database (.db) file. Replace <file path>.
 export DBT_ENV_SECRET_PATH=<file path>
+```
+
+## Dagster
+Dagster is an data pipeline orchestration service used to build and monitor data pipeliness and workflows. I used dagster python library to define and manage complex data processing tasks.
+
+```bash
+# To install it as a package and its Python dependencies, run:
+pip install -e ".[dev]"
+
+# Run Dagster UI locally
+dagster dev
 ```
 
 
@@ -42,6 +61,7 @@ Run the following python script. This script calls a public API to retrieve nba 
 ```bash
 python3 data_ingestion.py <file path to /data/players> <file path to duckdb .db file> <file path to /data/aggegated>
 ```
+
 
 ## Running dbt 
 
