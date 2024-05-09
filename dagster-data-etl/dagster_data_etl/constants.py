@@ -1,0 +1,1 @@
+NBA_PLAYER_DATA_RAW_FILE_DIRECTORY = "data/raw/players/"
