@@ -6,6 +6,7 @@ Requires-Dist: dagster-cloud
 Requires-Dist: requests
 Requires-Dist: duckdb
 Requires-Dist: pandas
+Requires-Dist: dagster-duckdb
 Provides-Extra: dev
 Requires-Dist: dagster-webserver; extra == "dev"
 Requires-Dist: pytest; extra == "dev"

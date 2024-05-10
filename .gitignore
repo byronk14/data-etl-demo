@@ -7,4 +7,4 @@ __pycache__
 /dataetlenv
 
 # log files
-/tmpzmtr8tcu
+/dagster-data-etl/tmpzmtr8tcu

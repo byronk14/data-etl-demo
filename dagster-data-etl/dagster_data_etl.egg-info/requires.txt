@@ -3,6 +3,7 @@ dagster-cloud
 requests
 duckdb
 pandas
+dagster-duckdb
 
 [dev]
 dagster-webserver

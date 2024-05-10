@@ -1,5 +1,5 @@
 import json
-from api_call import _get_api_request
+from . import api_call
 
 
 class NBADataWrapper(object):
@@ -15,7 +15,7 @@ class NBADataWrapper(object):
         self.api_url = api_url
 
     def get_data(self):
-        api_response = _get_api_request(self.method, self.api_url)
+        api_response = api_call._get_api_request(self.method, self.api_url)
         self.api_response = api_response['body']
 
     def hydrate(self):
