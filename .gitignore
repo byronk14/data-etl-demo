@@ -6,4 +6,5 @@ __pycache__
 # virtual environment
 /dataetlenv
 
-
+# log files
+/tmpzmtr8tcu
