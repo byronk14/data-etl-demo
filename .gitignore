@@ -8,3 +8,6 @@ __pycache__
 
 # log files
 /dagster-data-etl/tmpzmtr8tcu
+
+# duckdb file
+nba-data-db.db

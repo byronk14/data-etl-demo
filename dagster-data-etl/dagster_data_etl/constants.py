@@ -1,1 +1,2 @@
 NBA_PLAYER_DATA_RAW_FILE_DIRECTORY = "data/raw/players/"
+NBA_PLAYER_DATA_AGGREGATED_FILE_DIRECTORY = "data/aggregated/"

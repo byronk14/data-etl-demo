@@ -49,13 +49,12 @@ def nba_player_duckdb_table(database: DuckDBResource):
 
     player_stat_df_list = []
 
-    dirpath = sys.argv[1]
+    dirpath = constants.NBA_PLAYER_DATA_RAW_FILE_DIRECTORY
 
     # Read in data
     directory = os.fsencode(dirpath)
     
     for file in os.listdir(directory):
-        print(file)
         filename = os.fsdecode(file)
         
         temp_df = pd.read_csv(dirpath + '/' + filename)
@@ -66,11 +65,10 @@ def nba_player_duckdb_table(database: DuckDBResource):
 
     with database.get_connection() as conn:
         #conn.execute(query)
-        appended_data_df.to_csv('data/aggregated/suns_roster_player_data.csv', index=False)
-
+        appended_data_df.to_csv(constants.NBA_PLAYER_DATA_AGGREGATED_FILE_DIRECTORY + 'suns_roster_player_data.csv', index=False)
 
         # Create table
-        con.sql(f"CREATE TABLE team_players_stats AS SELECT * FROM read_csv_auto({dataFilePath});".format(dataFilePath=sys.argv[3]))
+        conn.sql(f"CREATE TABLE team_players_stats AS SELECT * FROM read_csv_auto({constants.NBA_PLAYER_DATA_AGGREGATED_FILE_DIRECTORY + 'suns_roster_player_data.csv'});")
 
     # Write to duckdb table
     #duckdb.register('test_df_view', appended_data_df) #causes a known issue that will be fixed with next duckdb release https://github.com/duckdb/duckdb/pull/8738
