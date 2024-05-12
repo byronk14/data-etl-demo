@@ -42,7 +42,7 @@ def nba_player_data_file(context):
     deps=["nba_player_data_file"],
     group_name="ingested"
 )
-def nba_player_duckdb_table(database: DuckDBResource):
+def team_players_stats_duckdb_table(database: DuckDBResource):
     """
       The raw nba player datasets, loaded into a DuckDB table
     """
@@ -67,8 +67,12 @@ def nba_player_duckdb_table(database: DuckDBResource):
         #conn.execute(query)
         appended_data_df.to_csv(constants.NBA_PLAYER_DATA_AGGREGATED_FILE_DIRECTORY + 'suns_roster_player_data.csv', index=False)
 
+        query = f"""
+                CREATE TABLE team_players_stats 
+                    AS SELECT * FROM read_csv_auto('{constants.NBA_PLAYER_DATA_AGGREGATED_FILE_DIRECTORY + 'suns_roster_player_data.csv'}');
+        """
         # Create table
-        conn.sql(f"CREATE TABLE team_players_stats AS SELECT * FROM read_csv_auto({constants.NBA_PLAYER_DATA_AGGREGATED_FILE_DIRECTORY + 'suns_roster_player_data.csv'});")
+        conn.sql(query)
 
     # Write to duckdb table
     #duckdb.register('test_df_view', appended_data_df) #causes a known issue that will be fixed with next duckdb release https://github.com/duckdb/duckdb/pull/8738

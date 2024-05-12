@@ -11,3 +11,7 @@ __pycache__
 
 # duckdb file
 nba-data-db.db
+nba-data-db.db.wal
+
+# temporary files
+dagster-data-etl/tmpzvhco10e
