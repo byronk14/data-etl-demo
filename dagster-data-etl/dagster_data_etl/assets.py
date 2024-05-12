@@ -1,5 +1,5 @@
 
-from dagster import asset
+from dagster import asset, MetadataValue, MaterializeResult
 from dagster_duckdb import DuckDBResource
 from . import data_wrapper
 from . import constants
@@ -37,6 +37,12 @@ def nba_player_data_file(context):
         player_df = pd.DataFrame(PlayerData.data)
 
         player_df.to_csv(constants.NBA_PLAYER_DATA_RAW_FILE_DIRECTORY + player + '_stats.csv', index=False)
+
+    return MaterializeResult(
+    metadata={
+        'Number of records': MetadataValue.int(len(player_df))
+        }
+    )
 
 @asset(
     deps=["nba_player_data_file"],
@@ -77,4 +83,8 @@ def team_players_stats_duckdb_table(database: DuckDBResource):
     # Write to duckdb table
     #duckdb.register('test_df_view', appended_data_df) #causes a known issue that will be fixed with next duckdb release https://github.com/duckdb/duckdb/pull/8738
 
-    print('Data written to new table!')
+    return MaterializeResult(
+    metadata={
+        'Number of records': MetadataValue.int(len(appended_data_df))
+        }
+    )

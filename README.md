@@ -32,7 +32,7 @@ export DBT_ENV_SECRET_PATH=<file path>
 ```
 
 ## Dagster
-Dagster is an data pipeline orchestration service used to build and monitor data pipeliness and workflows. I used dagster python library to define and manage complex data processing tasks.
+Dagster is an data pipeline orchestration service used to build and monitor data pipelines and workflows. It provides a suite of tools and abstractions that can be used to build scalable data processing flows. I used dagster python library to define and manage complex data processing tasks.
 
 ```bash
 # To install it as a package and its Python dependencies, run:
